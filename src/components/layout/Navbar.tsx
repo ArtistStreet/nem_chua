@@ -22,7 +22,6 @@ export default function Navbar() {
             className="nav-link"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
-              color: isActive ? "#0d6e0d" : "inherit",
             })}
           >
             Trang chủ
@@ -33,7 +32,6 @@ export default function Navbar() {
             className="nav-link"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
-              color: isActive ? "#0d6e0d" : "inherit",
             })}
           >
             Giới thiệu
@@ -44,7 +42,6 @@ export default function Navbar() {
             className="nav-link"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
-              color: isActive ? "#0d6e0d" : "inherit",
             })}
           >
             Sản Phẩm
@@ -67,7 +64,6 @@ export default function Navbar() {
               className="nav-link"
               style={({ isActive }) => ({
                 fontWeight: isActive ? "bold" : "normal",
-                color: isActive ? "#0d6e0d" : "inherit",
               })}
             >
               Tin tức
@@ -77,7 +73,6 @@ export default function Navbar() {
               className="nav-link"
               style={({ isActive }) => ({
                 fontWeight: isActive ? "bold" : "normal",
-                color: isActive ? "#0d6e0d" : "inherit",
               })}
             >
               Liên hệ
