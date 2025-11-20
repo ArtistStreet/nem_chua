@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 type MainBannerProps = {
   mainTitle: string;
@@ -6,6 +6,10 @@ type MainBannerProps = {
 };
 
 const MainBanner: React.FC<MainBannerProps> = ({ mainTitle, subTitle }) => {
+  const location = useLocation();
+
+  const currentPath = location.pathname.split("/").filter(Boolean)[0] || "/";
+
   return (
     <>
       <section
@@ -21,11 +25,17 @@ const MainBanner: React.FC<MainBannerProps> = ({ mainTitle, subTitle }) => {
         <div className="container position-relative z-1">
           <h1 className="display-5 fw-bold text-white mb-3">{mainTitle}</h1>
           <p className="text-white-50 fs-5">
-            <Link to="/" className="text-white-50 text-decoration-none">
+            <Link
+              to="/"
+              className="text-white-50 text-decoration-none link-light"
+            >
               Trang chủ
             </Link>
             <i className="bi bi-chevron-right mx-2"></i>
-            <Link to="/san-pham" className="text-white-50 text-decoration-none">
+            <Link
+              to={`/${currentPath}`}
+              className="text-white-50 text-decoration-none link-light"
+            >
               {subTitle}
             </Link>
           </p>

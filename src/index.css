@@ -34,3 +34,12 @@ a {
   color: #198754 !important;
   text-decoration: none !important;
 }
+
+.btn-outline-success-hover-white {
+  transition: all 0.3s ease;
+}
+.btn-outline-success-hover-white:hover {
+  color: white !important;
+  background-color: #198754 !important; /* màu success của Bootstrap */
+  border-color: #198754 !important;
+}

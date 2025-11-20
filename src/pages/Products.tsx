@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import MainBanner from "../components/MainBanner";
 import { products } from "../data/products";
+import { Helmet } from "react-helmet-async";
 
 export default function Products() {
   return (
     <>
-      <MainBanner mainTitle="Sản Phẩm" subTitle="Products" />
+      <Helmet>
+        <title>Sản phẩm – Nem Chua Phương Chi Lê</title>
+      </Helmet>
+      <MainBanner mainTitle="Sản Phẩm" subTitle="Sản Phẩm" />
 
       <section className="py-5 bg-light">
         <div className="container">

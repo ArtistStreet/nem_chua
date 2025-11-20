@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { products } from "../data/products";
 import MainBanner from "../components/MainBanner";
+import { Helmet } from "react-helmet-async";
 
 export default function ProductDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -11,6 +12,13 @@ export default function ProductDetailPage() {
 
   return (
     <>
+      <Helmet>
+        <title>{product.name} – Nem Chua Phương Chi Lê</title>
+        <meta
+          name="description"
+          content={`Xem chi tiết sản phẩm ${product.name} của Phương Chi Lê.`}
+        />
+      </Helmet>
       <MainBanner mainTitle={product.name} subTitle="Sản Phẩm" />
       <section className="py-5 bg-white">
         <div className="container">

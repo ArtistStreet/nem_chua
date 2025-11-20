@@ -1,10 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import MainBanner from "../components/MainBanner";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
   return (
     <>
+      <Helmet>
+        <title>Liên hệ – Nem Chua Phương Chi Lê</title>
+      </Helmet>
       <MainBanner mainTitle="Liên Hệ" subTitle="Contact" />
 
       {/* Phần thông tin liên hệ */}
@@ -99,11 +103,28 @@ export default function Contact() {
                   hợp tác
                 </p>
 
-                <form>
+                <form
+                  action="https://formsubmit.co/darkstarcfvn@gmail.com"
+                  method="POST"
+                  className="bg-white p-4 p-md-5 rounded-4 shadow-lg"
+                >
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="http://localhost:5173/cam-on"
+                  />
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="Khách liên hệ từ website Nem Phương Chi Lê"
+                  />
+
                   <div className="mb-3">
                     <input
                       type="text"
-                      className="form-control form-control-lg rounded-pill shadow-sm"
+                      name="name"
+                      className="form-control form-control-lg rounded-pill"
                       placeholder="Họ và tên *"
                       required
                     />
@@ -111,7 +132,8 @@ export default function Contact() {
                   <div className="mb-3">
                     <input
                       type="email"
-                      className="form-control form-control-lg rounded-pill shadow-sm"
+                      name="email"
+                      className="form-control form-control-lg rounded-pill"
                       placeholder="Email *"
                       required
                     />
@@ -119,28 +141,27 @@ export default function Contact() {
                   <div className="mb-3">
                     <input
                       type="tel"
-                      className="form-control form-control-lg rounded-pill shadow-sm"
+                      name="phone"
+                      className="form-control form-control-lg rounded-pill"
                       placeholder="Số điện thoại *"
                       required
                     />
                   </div>
                   <div className="mb-4">
                     <textarea
-                      className="form-control rounded-3 shadow-sm"
+                      name="message"
                       rows={5}
+                      className="form-control rounded-3"
                       placeholder="Nội dung liên hệ..."
-                    ></textarea>
+                    />
                   </div>
 
-                  <div className="text-center">
-                    <button
-                      type="submit"
-                      className="btn btn-success btn-lg px-5 py-3 rounded-pill shadow hover-lift"
-                      style={{ minWidth: "200px" }}
-                    >
-                      Gửi liên hệ
-                    </button>
-                  </div>
+                  <button
+                    type="submit"
+                    className="btn btn-success btn-lg px-5 rounded-pill w-100 shadow"
+                  >
+                    Gửi liên hệ
+                  </button>
                 </form>
               </div>
             </div>

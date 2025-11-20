@@ -1,10 +1,14 @@
 // src/pages/Home/HomePage.tsx
 import "bootstrap/dist/css/bootstrap.min.css";
 import MainBanner from "../components/MainBanner";
+import { Helmet } from "react-helmet-async";
 
 export default function About() {
   return (
     <>
+      <Helmet>
+        <title>Giới thiệu – Nem Chua Phương Chi Lê</title>
+      </Helmet>
       <MainBanner mainTitle="Giới thiệu về chúng tôi" subTitle="Giới thiệu" />
 
       <section className="py-5">

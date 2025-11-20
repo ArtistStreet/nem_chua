@@ -1,10 +1,14 @@
 // src/pages/Home/HomePage.tsx
 import "bootstrap/dist/css/bootstrap.min.css";
 import HeroSlider from "../components/Slider";
+import { Helmet } from "react-helmet-async";
 
 export default function HomePage() {
   return (
     <>
+      <Helmet>
+        <title>Nem Chua Phương Chi Lê</title>
+      </Helmet>
       <HeroSlider />
       <section className="py-5 bg-white">
         <div className="container">

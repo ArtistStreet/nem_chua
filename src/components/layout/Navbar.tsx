@@ -1,11 +1,21 @@
-// src/components/layout/Navbar.tsx
-import { NavLink } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { useLocation } from "react-router-dom";
 
 export default function Navbar() {
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+  const isActive = (path: string) => currentPath === path;
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm py-3 py-lg-4">
-      <div className="container">
+      <div className="container position-relative">
+        <a
+          href="/"
+          className="navbar-brand position-absolute top-50 start-50 translate-middle"
+        >
+          <img src="/images/logo.png" alt="Nem Thanh" height="55" />
+        </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -15,58 +25,51 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Menu bên trái */}
         <div className="navbar-nav mx-auto text-center d-lg-flex d-none gap-4">
-          <NavLink
-            to="/"
-            className="nav-link"
-            style={({ isActive }) => ({
-              fontWeight: isActive ? "bold" : "normal",
-            })}
+          <a
+            href="/"
+            className={`nav-link fw-medium ${
+              isActive("/") ? "text-success fw-bold" : "text-black-50"
+            }`}
           >
             Trang chủ
-          </NavLink>
-
-          <NavLink
-            to="/gioi-thieu"
-            className="nav-link"
-            style={({ isActive }) => ({
-              fontWeight: isActive ? "bold" : "normal",
-            })}
+          </a>
+          <a
+            href="/gioi-thieu"
+            className={`nav-link fw-medium ${
+              isActive("/gioi-thieu") ? "text-success fw-bold" : "text-black-50"
+            }`}
           >
             Giới thiệu
-          </NavLink>
+          </a>
         </div>
 
-        {/* Logo giữa */}
-        <NavLink
-          className="navbar-brand mx-auto position-absolute top-50 start-50 translate-middle"
-          to="/"
-        >
-          <img src="/images/logo.png" alt="Nem Thanh" height="55" />
-        </NavLink>
-
-        {/* Menu bên phải */}
         <div className="collapse navbar-collapse" id="navbarNav">
-          <div className="navbar-nav ms-auto gap-4">
-            <NavLink
-              to="/san-pham"
-              className="nav-link"
-              style={({ isActive }) => ({
-                fontWeight: isActive ? "bold" : "normal",
-              })}
+          <div className="navbar-nav ms-auto gap-4 text-center">
+            <a
+              href="/san-pham"
+              className={`nav-link fw-medium ${
+                isActive("/san-pham") ? "text-success fw-bold" : "text-black-50"
+              }`}
             >
-              Sản Phẩm
-            </NavLink>
-            <NavLink
-              to="/lien-he"
-              className="nav-link"
-              style={({ isActive }) => ({
-                fontWeight: isActive ? "bold" : "normal",
-              })}
+              Sản phẩm
+            </a>
+            <a
+              href="/tin-tuc"
+              className={`nav-link fw-medium ${
+                isActive("/tin-tuc") ? "text-success fw-bold" : "text-black-50"
+              }`}
+            >
+              Tin tức
+            </a>
+            <a
+              href="/lien-he"
+              className={`nav-link fw-medium ${
+                isActive("/lien-he") ? "text-success fw-bold" : "text-black-50"
+              }`}
             >
               Liên hệ
-            </NavLink>
+            </a>
           </div>
         </div>
       </div>
