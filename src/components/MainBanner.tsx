@@ -25,7 +25,9 @@ const MainBanner: React.FC<MainBannerProps> = ({ mainTitle, subTitle }) => {
               Trang chủ
             </Link>
             <i className="bi bi-chevron-right mx-2"></i>
-            {subTitle}
+            <Link to="/san-pham" className="text-white-50 text-decoration-none">
+              {subTitle}
+            </Link>
           </p>
         </div>
       </section>

@@ -36,16 +36,6 @@ export default function Navbar() {
           >
             Giới thiệu
           </NavLink>
-
-          <NavLink
-            to="/san-pham"
-            className="nav-link"
-            style={({ isActive }) => ({
-              fontWeight: isActive ? "bold" : "normal",
-            })}
-          >
-            Sản Phẩm
-          </NavLink>
         </div>
 
         {/* Logo giữa */}
@@ -60,13 +50,13 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <div className="navbar-nav ms-auto gap-4">
             <NavLink
-              to="/tin-tuc"
+              to="/san-pham"
               className="nav-link"
               style={({ isActive }) => ({
                 fontWeight: isActive ? "bold" : "normal",
               })}
             >
-              Tin tức
+              Sản Phẩm
             </NavLink>
             <NavLink
               to="/lien-he"
