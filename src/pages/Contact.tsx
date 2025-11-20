@@ -41,9 +41,9 @@ export default function Contact() {
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Hotline:</h5>
                   <p className="mb-0">
-                    <a href="tel:0945868886" className="text-success text-decoration-none fw-bold d-block">
+                    <span className="text-success text-decoration-none fw-bold d-block">
                       0945.868.886
-                    </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -61,9 +61,9 @@ export default function Contact() {
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Mail liên hệ:</h5>
                   <p className="mb-0">
-                    <a href="mailto:nemthanh.dondathang@gmail.com" className="text-success text-decoration-none">
+                    <span className="text-success text-decoration-none">
                       Brand@gmail.com
-                    </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -82,7 +82,11 @@ export default function Contact() {
                 src="/images/brand.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg w-100"
-                style={{ objectFit: "cover", height: "100%", minHeight: "500px" }}
+                style={{
+                  objectFit: "cover",
+                  height: "100%",
+                  minHeight: "500px",
+                }}
               />
             </div>
             {/* Form */}
@@ -95,7 +99,8 @@ export default function Contact() {
                   Liên hệ với chúng tôi
                 </h3>
                 <p className="text-muted text-center mb-4">
-                  Kính mong quý khách hàng và đối tác chia sẻ góp ý hoặc liên hệ hợp tác
+                  Kính mong quý khách hàng và đối tác chia sẻ góp ý hoặc liên hệ
+                  hợp tác
                 </p>
 
                 <form>
