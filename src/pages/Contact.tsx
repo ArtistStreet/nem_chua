@@ -40,10 +40,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Hotline:</h5>
-                  <p className="mb-0">
-                    <span className="text-success text-decoration-none fw-bold d-block">
-                      0945.868.886
-                    </span>
+                  <p className="mb-0 text-success text-decoration-none">
+                    0945.868.886
                   </p>
                 </div>
               </div>
@@ -60,10 +58,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Mail liên hệ:</h5>
-                  <p className="mb-0">
-                    <span className="text-success text-decoration-none">
-                      Brand@gmail.com
-                    </span>
+                  <p className="mb-0 text-success text-decoration-none">
+                    Brand@gmail.com
                   </p>
                 </div>
               </div>
