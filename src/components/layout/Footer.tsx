@@ -1,6 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white pt-5 pb-3">
+    <footer
+      className="text-white pt-5 pb-3"
+      style={{ backgroundImage: "url('/images/background.jpg')" }}
+    >
       <div className="container">
         <div className="row gy-4">
           {/* Cột 1: Logo + Giới thiệu ngắn */}
@@ -21,7 +24,7 @@ export default function Footer() {
 
           {/* Cột 2: Liên kết nhanh */}
           <div className="col-lg-4">
-            <h5 className="text-success fw-bold mb-3">Liên hệ với chúng tôi</h5>
+            <h5 className="text-light fw-bold mb-3">Liên hệ với chúng tôi</h5>
             <p className="text-white-50 small mb-2">
               <i className="bi bi-geo-alt-fill"></i>
               Quan Sơn - Phường An Hưng - TP Thanh Hoá

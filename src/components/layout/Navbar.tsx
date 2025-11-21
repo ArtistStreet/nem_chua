@@ -7,70 +7,70 @@ export default function Navbar() {
   const isActive = (path: string) => currentPath === path;
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm py-3 py-lg-4">
-      <div className="container position-relative">
-        <a
-          href="/"
-          className="navbar-brand position-absolute top-50 start-50 translate-middle"
-        >
-          <img src="/images/logo.png" alt="Nem Thanh" height="55" />
+    <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow-lg sticky-top">
+      <div className="container">
+        <a href="/" className="navbar-brand">
+          <img
+            src="/images/logo.png"
+            alt="Nem Chua Phương Chi Lê"
+            height="60"
+            className="rounded-circle border border-3 border-white"
+          />
         </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="navbar-nav mx-auto text-center d-lg-flex d-none gap-4">
+        <div className="navbar-nav mx-auto gap-5 d-none d-lg-flex">
           <a
             href="/"
-            className={`nav-link fw-medium ${
-              isActive("/") ? "text-success fw-bold" : "text-black-50"
+            className={`nav-link text-white fw-medium fs-5 ${
+              isActive("/") ? "text-success fw-medium" : "text-black-50"
             }`}
           >
             Trang chủ
           </a>
           <a
             href="/gioi-thieu"
-            className={`nav-link fw-medium ${
-              isActive("/gioi-thieu") ? "text-success fw-bold" : "text-black-50"
+            className={`nav-link text-white fw-medium fs-5 ${
+              isActive("/gioi-thieu")
+                ? "text-success fw-medium"
+                : "text-black-50"
             }`}
           >
             Giới thiệu
           </a>
+          <a
+            href="/san-pham"
+            className={`nav-link text-white fw-medium fs-5 ${
+              isActive("/san-pham") ? "text-success fw-medium" : "text-black-50"
+            }`}
+          >
+            Sản phẩm
+          </a>
+          <a
+            href="/tin-tuc"
+            className={`nav-link text-white fw-medium fs-5 ${
+              isActive("/tin-tuc") ? "text-success fw-medium" : "text-black-50"
+            }`}
+          >
+            Tin tức
+          </a>
+          <a
+            href="/lien-he"
+            className={`nav-link text-white fw-medium fs-5 ${
+              isActive("/lien-he") ? "text-success fw-medium" : "text-black-50"
+            }`}
+          >
+            Liên hệ
+          </a>
         </div>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <div className="navbar-nav ms-auto gap-4 text-center">
-            <a
-              href="/san-pham"
-              className={`nav-link fw-medium ${
-                isActive("/san-pham") ? "text-success fw-bold" : "text-black-50"
-              }`}
-            >
-              Sản phẩm
-            </a>
-            <a
-              href="/tin-tuc"
-              className={`nav-link fw-medium ${
-                isActive("/tin-tuc") ? "text-success fw-bold" : "text-black-50"
-              }`}
-            >
-              Tin tức
-            </a>
-            <a
-              href="/lien-he"
-              className={`nav-link fw-medium ${
-                isActive("/lien-he") ? "text-success fw-bold" : "text-black-50"
-              }`}
-            >
-              Liên hệ
-            </a>
-          </div>
+        {/* Hotline nổi bật */}
+        <div className="d-none d-xl-block">
+          <a
+            href="tel:0945868886"
+            className="btn text-dark bg-light btn-lg rounded-pill px-4 shadow"
+          >
+            <i className="bi bi-telephone-fill"></i> 0945.868.886
+          </a>
         </div>
       </div>
     </nav>
