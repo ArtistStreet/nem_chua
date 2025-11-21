@@ -23,9 +23,10 @@ const HeroSlider: React.FC = () => {
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/nem-chua.jpg.webp"
+            src="/images/01.png"
             alt="Nem chua"
-            className="d-block w-100 vh-75 object-cover"
+            className="d-block w-100 object-cover"
+            style={{ marginTop: "-500px" }}
           />
         </div>
       </SwiperSlide>
@@ -33,9 +34,10 @@ const HeroSlider: React.FC = () => {
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/nem-thinh.jpg.webp"
+            src="/images/02.jpg"
             alt="Nem chua"
-            className="d-block w-100 h-25 object-cover"
+            className="d-block w-100 object-cover"
+            style={{ marginTop: "-600px" }}
           />
         </div>
       </SwiperSlide>
@@ -43,9 +45,10 @@ const HeroSlider: React.FC = () => {
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/nem-nuong.jpg.webp"
+            src="/images/nem-coi.jpg"
             alt="Nem chua"
-            className="d-block w-100 h-25 object-cover"
+            className="d-block w-100 object-cover"
+            style={{ marginTop: "-600px" }}
           />
         </div>
       </SwiperSlide>
