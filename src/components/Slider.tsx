@@ -2,10 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, EffectFade } from "swiper/modules";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/effect-fade";
+import "../../node_modules/swiper/swiper-bundle.min.css";
 
 const HeroSlider: React.FC = () => {
   return (
