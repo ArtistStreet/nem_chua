@@ -63,7 +63,7 @@ export default function Contact() {
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Mail liên hệ:</h5>
                   <p className="mb-0 text-success text-decoration-none">
-                    Brand@gmail.com
+                    nemphuongchile@gmail.com
                   </p>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Contact() {
                 </p>
 
                 <form
-                  action="https://formsubmit.co/darkstarcfvn@gmail.com"
+                  action="https://formsubmit.co/nemphuongchile@gmail.com"
                   method="POST"
                   className="bg-white p-4 p-md-5 rounded-4 shadow-lg"
                 >
@@ -112,7 +112,7 @@ export default function Contact() {
                   <input
                     type="hidden"
                     name="_next"
-                    value="http://localhost:5173/cam-on"
+                    value="nemchuaphuongchile.com/cam-on"
                   />
                   <input
                     type="hidden"
