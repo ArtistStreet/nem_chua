@@ -40,6 +40,8 @@ export default function HomePage() {
     ));
   };
 
+  console.log(renderStars(5));
+
   return (
     <>
       <Helmet>
