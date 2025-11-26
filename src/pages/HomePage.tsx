@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import HeroSlider from "../components/Slider";
 import { Helmet } from "react-helmet-async";
-import { FaRegStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 
 export default function HomePage() {
   const reviews = [
@@ -35,7 +35,7 @@ export default function HomePage() {
   const renderStars = (count: number) => {
     return [...Array(count)].map((_, i) => (
       <span key={i} className="px-1 text-warning">
-        <FaRegStar />
+        <FaStar />
       </span>
     ));
   };
@@ -94,7 +94,7 @@ export default function HomePage() {
           </div>
 
           <div className="row g-4 g-xl-5 justify-content-center">
-            <div className="col-6 col-md-4 col-lg-3 text-center">
+            <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
                   src="/images/nem-chua.jpg.webp"
@@ -105,18 +105,18 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="col-6 col-md-4 col-lg-3 text-center">
+            <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
                   src="/images/nem-thinh.jpg.webp"
                   alt="Nem Thịnh"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                 />
-                <p className="text-white fw-medium fs-5">Nem Thịnh</p>
+                <p className="text-white fw-medium fs-5">Nem Thính</p>
               </div>
             </div>
 
-            <div className="col-6 col-md-4 col-lg-3 text-center">
+            <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
                   src="/images/nem-nuong.jpg.webp"
@@ -127,7 +127,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="col-6 col-md-4 col-lg-3 text-center">
+            <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
                   src="/images/nem-coi.jpg"
@@ -135,6 +135,60 @@ export default function HomePage() {
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                 />
                 <p className="text-white fw-medium fs-5">Nem Cối</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-5 bg-light">
+        <div className="container py-lg-5">
+          <h2 className="text-center text-success display-5 fw-bold mb-5">
+            Xưởng sản xuất
+          </h2>
+
+          <div className="row g-4 g-xl-5 justify-content-center">
+            <div className="col-12 order-1 order-md-2">
+              <div className="row g-3 g-xl-4">
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/07.jpg"
+                      alt="Chế biến nem"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/05.jpg"
+                      alt="Nguyên liệu sạch"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/04.jpg"
+                      alt="Đóng gói"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/06.jpg"
+                      alt="Nhân viên"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

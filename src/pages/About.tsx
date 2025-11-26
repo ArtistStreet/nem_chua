@@ -20,7 +20,7 @@ export default function About() {
                 Giới thiệu về chúng tôi
               </h2>
 
-              <p className="lead text-muted mb-4">
+              <p className="text-muted mb-4">
                 Nem chua Phương Chi Lê là thương hiệu nem chua truyền thống được
                 làm hoàn toàn thủ công tại Thanh Hóa, do chính chị Phương Chi Lê
                 – một người con xứ Thanh sinh ra và lớn lên cùng hương vị nem
@@ -125,7 +125,7 @@ export default function About() {
         <div className="container">
           <div className="row align-items-start g-5">
             <div className="col-lg-7">
-              <p className="lead text-muted">
+              <p className="text-muted">
                 Và thế là thương hiệu Nem chua Phương Chi Lê đã chính thức ra
                 đời, với khát vọng gìn giữ trọn vẹn và lan tỏa hương vị nem chua
                 Thanh Hóa chuẩn vị gia truyền đến mọi miền đất nước, thậm chí là

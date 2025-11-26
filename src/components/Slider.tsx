@@ -14,27 +14,16 @@ const HeroSlider: React.FC = () => {
       pagination={{ clickable: true }}
       navigation={true}
       modules={[Pagination, Navigation, EffectFade]}
-      className="heroSlider"
+      //   className="heroSlider"
       style={{ height: "75vh" }}
+      className="heroSlider w-100 vh-mobile-55 vh-md-75"
     >
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/01.png"
+            src="/images/03.jpg"
             alt="Nem chua"
             className="d-block w-100 object-cover"
-            style={{ marginTop: "-500px" }}
-          />
-        </div>
-      </SwiperSlide>
-
-      <SwiperSlide>
-        <div className="slide relative">
-          <img
-            src="/images/02.jpg"
-            alt="Nem chua"
-            className="d-block w-100 object-cover"
-            style={{ marginTop: "-600px" }}
           />
         </div>
       </SwiperSlide>
@@ -45,7 +34,22 @@ const HeroSlider: React.FC = () => {
             src="/images/nem-coi.jpg"
             alt="Nem chua"
             className="d-block w-100 object-cover"
-            style={{ marginTop: "-600px" }}
+            style={{
+              marginTop: window.innerWidth >= 932 ? "-600px" : "0px",
+            }}
+          />
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className="slide relative">
+          <img
+            src="/images/02.jpg"
+            alt="Nem chua"
+            className="d-block w-100 object-cover"
+            style={{
+              marginTop: window.innerWidth >= 932 ? "-600px" : "0px",
+            }}
           />
         </div>
       </SwiperSlide>

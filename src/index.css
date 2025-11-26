@@ -72,3 +72,19 @@ a {
 .pb-6 {
   padding-bottom: 6rem;
 } /* ≈ 64px */
+
+.heroSlider {
+  height: 55vh !important;
+}
+
+@media (min-width: 768px) {
+  .heroSlider {
+    height: 75vh !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .heroSlider {
+    height: 80vh !important;
+  }
+}
