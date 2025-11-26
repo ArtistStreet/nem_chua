@@ -54,7 +54,7 @@ export default function HomePage() {
                 Nem Chua xứ Thanh
               </h2>
 
-              <p className="fw-light mb-4 title-main">
+              <p className="mb-4 title-main text-lg-left fs-5">
                 Nem chua Thanh Hóa là món ăn truyền thống đặc sản của Thanh Hóa,
                 được làm từ thịt lợn tươi, tỉ mỉ ướp gia vị và phơi khô. Nem
                 chua Thanh Hóa có vị chua ngọt, thơm ngon, khi ăn kèm với rau
@@ -65,7 +65,7 @@ export default function HomePage() {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/01.png"
+                src="/images/03.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg"
                 style={{ height: "30rem", objectFit: "cover" }}
