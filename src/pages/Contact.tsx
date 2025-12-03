@@ -79,7 +79,7 @@ export default function Contact() {
             {/* Ảnh */}
             <div className="col-lg-6">
               <img
-                src="/images/brand.jpg"
+                src="/images/Nem ong hop.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg w-100"
                 style={{
