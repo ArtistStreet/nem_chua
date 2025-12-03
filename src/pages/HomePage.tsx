@@ -65,7 +65,7 @@ export default function HomePage() {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/03.jpg"
+                src="/images/Nem sau cat.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg"
                 style={{ height: "30rem", objectFit: "cover" }}
@@ -97,9 +97,14 @@ export default function HomePage() {
             <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-chua.jpg.webp"
+                  src="/images/nem tui zip.jpg"
                   alt="Nem Chua Nhỏ"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                    style={{
+                    height: "280px",
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Chua Nhỏ</p>
               </div>
@@ -108,9 +113,14 @@ export default function HomePage() {
             <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-thinh.jpg.webp"
+                  src="/images/nem-thinh.jpg"
                   alt="Nem Thịnh"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                    style={{
+                    height: "280px",
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Thính</p>
               </div>
@@ -119,9 +129,14 @@ export default function HomePage() {
             <div className="col-12 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-nuong.jpg.webp"
+                  src="/images/nuong.jpg"
                   alt="Nem Nướng"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                  style={{
+                    height: "280px",
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Nướng</p>
               </div>
@@ -133,6 +148,11 @@ export default function HomePage() {
                   src="/images/nem-coi.jpg"
                   alt="Nem Cói"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                    style={{
+                    height: "280px",
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Cối</p>
               </div>
@@ -153,7 +173,7 @@ export default function HomePage() {
                 <div className="col-12 col-sm-6 col-md-3">
                   <div className="overflow-hidden rounded-4 shadow hover-shadow">
                     <img
-                      src="/images/07.jpg"
+                      src="/images/may dun.jpg"
                       alt="Chế biến nem"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
@@ -163,7 +183,7 @@ export default function HomePage() {
                 <div className="col-12 col-sm-6 col-md-3">
                   <div className="overflow-hidden rounded-4 shadow hover-shadow">
                     <img
-                      src="/images/05.jpg"
+                      src="/images/may sau dun.jpg"
                       alt="Nguyên liệu sạch"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
@@ -173,7 +193,7 @@ export default function HomePage() {
                 <div className="col-12 col-sm-6 col-md-3">
                   <div className="overflow-hidden rounded-4 shadow hover-shadow">
                     <img
-                      src="/images/04.jpg"
+                      src="/images/May tron 2.jpg"
                       alt="Đóng gói"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
@@ -183,7 +203,7 @@ export default function HomePage() {
                 <div className="col-12 col-sm-6 col-md-3">
                   <div className="overflow-hidden rounded-4 shadow hover-shadow">
                     <img
-                      src="/images/06.jpg"
+                      src="/images/nem sau goi bong.jpg"
                       alt="Nhân viên"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
