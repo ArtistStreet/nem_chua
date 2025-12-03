@@ -27,7 +27,7 @@ export default function Footer() {
             <h5 className="text-light fw-bold mb-3">Liên hệ với chúng tôi</h5>
             <p className="text-white-50 small mb-2">
               <i className="bi bi-geo-alt-fill"></i>
-              Quan Sơn - Phường An Hưng - TP Thanh Hoá
+              Số nhà 21 - Quan Sơn - Phường An Hưng - TP Thanh Hoá
             </p>
             <p className="text-white-50 small mb-2">
               <i className="bi bi-telephone-fill"></i>

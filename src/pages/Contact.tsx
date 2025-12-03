@@ -27,7 +27,7 @@ export default function Contact() {
                 <div>
                   <h5 className="text-success mb-2 fw-bold">Cơ sở:</h5>
                   <p className="mb-0 text-dark">
-                    Quan Sơn - Phường An Hưng - TP Thanh Hoá
+                    Số nhà 21 - Quan Sơn - Phường An Hưng - TP Thanh Hoá
                   </p>
                 </div>
               </div>
