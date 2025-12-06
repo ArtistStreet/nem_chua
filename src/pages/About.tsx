@@ -85,7 +85,7 @@ export default function About() {
                     style={{ width: "20%", height: "20%", objectFit: "cover" }}
                   />
                   <h5 className="fw-bold mb-1">Kính gửi Quý khách hàng</h5>
-                  <p className="small lh-lg">
+                  <p className="lh-lg">
                     Lời đầu tiên, Phương Chi Lê xin gửi lời cảm ơn chân thành
                     nhất đến anh chị đã luôn tin tưởng, yêu mến và đồng hành
                     cùng Nem chua Phương Chi Lê suốt thời gian qua. Tôi vốn là
@@ -94,14 +94,6 @@ export default function About() {
                     chua không chỉ là món ăn, mà là cả một bầu trời ký ức: vị
                     chua dịu của lên men tự nhiên, vị cay tê đầu lưỡi, thơm lừng
                     lá ổi, lá đinh lăng, và cái giòn sần sật của bì heo tươi…
-                    Tất cả như gói trọn cái hồn quê vào từng chiếc nem nhỏ xinh.
-                    Chính vì tình yêu ấy, tôi đã quyết định mang nem chua gia
-                    truyền nhà mình ra ngoài kia, để những người con xa quê vẫn
-                    được ăn đúng vị tuổi thơ, để anh chị ở khắp nơi cũng được
-                    thử một lần cái “đã” khó tả của nem chua Thanh Hóa chính
-                    gốc. Mỗi ngày, tôi và đội ngũ vẫn tỉ mỉ chọn thịt nóng trong
-                    ngày, gia vị sạch, gói tay, ủ đúng ngày… chỉ để giữ trọn cái
-                    hồn và cái tình trong từng chiếc nem mang tên Phương Chi Lê.
                     Cảm ơn anh chị đã cho tôi cơ hội mang chút hương vị quê nhà
                     đến bàn ăn của gia đình mình.
                     <br />
@@ -121,23 +113,10 @@ export default function About() {
         </div>
       </section>
 
-      <section className="py-5 bg-light">
+      <section className="py-5">
         <div className="container">
           <div className="row align-items-start g-5">
-            <div className="col-lg-7">
-              <p className="text-muted">
-                Và thế là thương hiệu Nem chua Phương Chi Lê đã chính thức ra
-                đời, với khát vọng gìn giữ trọn vẹn và lan tỏa hương vị nem chua
-                Thanh Hóa chuẩn vị gia truyền đến mọi miền đất nước, thậm chí là
-                ra thế giới. Với tình yêu mãnh liệt dành cho món ăn quê hương,
-                cùng cái “tâm” và cái “tình” của người con xứ Thanh, Phương Chi
-                Lê không chỉ muốn giữ lại công thức cổ của mẹ, của bà, mà còn
-                mong một ngày thật gần đây, người người, nhà nhà, từ Bắc vào
-                Nam, từ Việt kiều xa xứ đến bạn bè quốc tế, đều được một lần cắn
-                miếng nem chua chính gốc, để cảm nhận được cái chua dịu, cái cay
-                tê, cái thơm nồng và cái giòn sần sật mà chỉ Thanh Hóa mới có.
-              </p>
-
+            <div className="col-lg-12">
               <h3 className="text-success fw-bold mt-5 mb-4">Tầm nhìn</h3>
               <p className="text-muted mb-4">
                 Bằng tất cả niềm tự hào của người con xứ Thanh, cùng với cái TÂM

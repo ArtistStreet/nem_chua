@@ -100,10 +100,10 @@ export default function HomePage() {
                   src="/images/nem tui zip.jpg"
                   alt="Nem Chua Nhỏ"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                    style={{
+                  style={{
                     height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Chua Nhỏ</p>
@@ -116,10 +116,10 @@ export default function HomePage() {
                   src="/images/nem-thinh.jpg"
                   alt="Nem Thịnh"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                    style={{
+                  style={{
                     height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Thính</p>
@@ -135,7 +135,7 @@ export default function HomePage() {
                   style={{
                     height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Nướng</p>
@@ -148,10 +148,10 @@ export default function HomePage() {
                   src="/images/nem-coi.jpg"
                   alt="Nem Cói"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                    style={{
+                  style={{
                     height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Cối</p>
@@ -178,6 +178,15 @@ export default function HomePage() {
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
                   </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold text-success mb-2">
+                      <i className="bi bi-droplet-fill text-success"></i>
+                      Sạch sẽ tuyệt đối
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      Khu vực sản xuất được vệ sinh hàng ngày theo tiêu chuẩn 5S
+                    </p>
+                  </div>
                 </div>
 
                 <div className="col-12 col-sm-6 col-md-3">
@@ -187,6 +196,15 @@ export default function HomePage() {
                       alt="Nguyên liệu sạch"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold text-success mb-2">
+                      <i className="bi bi-shield-check text-success"></i>
+                      Nguyên liệu đạt chuẩn
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      100% thịt nạc vai tươi trong ngày, gia vị tự nhiên
+                    </p>
                   </div>
                 </div>
 
@@ -198,6 +216,15 @@ export default function HomePage() {
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
                   </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold text-success mb-2">
+                      <i className="bi bi-check2-all text-success"></i>
+                      Quy trình 5S Nhật Bản
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      Sàng lọc – Sắp xếp – Sạch sẽ – Săn sóc – Sẵn sàng
+                    </p>
+                  </div>
                 </div>
 
                 <div className="col-12 col-sm-6 col-md-3">
@@ -207,6 +234,15 @@ export default function HomePage() {
                       alt="Nhân viên"
                       className="img-fluid w-100 h-100 object-cover transition"
                     />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold text-success mb-2">
+                      <i className="bi bi-box-seam text-success"></i>
+                      Đóng gói hút chân không
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      Bảo quản được 7–10 ngày, giao hàng toàn quốc
+                    </p>
                   </div>
                 </div>
               </div>
@@ -219,11 +255,11 @@ export default function HomePage() {
         <div className="container">
           <div className="text-start mb-5">
             <h2 className="display-6 fw-bold text-success lh-base">
-              Khách hàng nói gì về
+              Khách hàng nói gì về chúng tôi,
               <br />
-              <span className="text-success">chúng tôi, những</span>
-              <br />
-              <span className="text-success">feedback chân thật nhất</span>
+              <span className="text-success">
+                những feedback chân thật nhất
+              </span>
               <br />
               về Nem Phương Chi Lê
             </h2>
