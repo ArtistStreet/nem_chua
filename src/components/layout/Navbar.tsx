@@ -22,10 +22,10 @@ export default function Navbar() {
         {/* Logo */}
         <a href="/" className="navbar-brand">
           <img
-            src="/images/logo.png"
+            src="/images/logo_pcl.jpg"
             alt="Nem Chua Phương Chi Lê"
             height="60"
-            className="rounded-circle border border-3 border-white shadow"
+            // className="rounded-circle border border-3 border-white shadow"
           />
         </a>
 
@@ -55,7 +55,7 @@ export default function Navbar() {
 
             {/* Logo nhỏ */}
             <img
-              src="/images/logo.png"
+              src="/images/logo_pcl.jpg"
               alt="Logo"
               height="80"
               className="rounded-circle border border-4 border-white shadow-lg mb-4"

@@ -51,7 +51,7 @@ export default function HomePage() {
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
               <h2 className="display-5 fw-normal text-success mb-4">
-                Nem Chua xứ Thanh
+                Nem Chua Phương Chi Lê
               </h2>
 
               <p className="mb-4 title-main text-lg-left fs-5">

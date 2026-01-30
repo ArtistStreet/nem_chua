@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Cột 1: Logo + Giới thiệu ngắn */}
           <div className="col-lg-4 text-center text-lg-start">
             <img
-              src="/images/logo.png"
+              src="/images/logo_pcl.jpg"
               alt="Nem Thanh"
               style={{ height: "60px" }}
               className="img-fluid d-inline-block mb-4"
